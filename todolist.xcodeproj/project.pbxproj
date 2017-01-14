@@ -16,6 +16,7 @@
 		633755C01DF34A4E00865C91 /* todolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755BF1DF34A4E00865C91 /* todolistUITests.swift */; };
 		633755CE1DF34B5F00865C91 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755CD1DF34B5F00865C91 /* vc2.swift */; };
 		633755D01DF3510600865C91 /* cell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755CF1DF3510600865C91 /* cell_TableViewCell.swift */; };
+		6EEFD4E91E2ABE72009A29CE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEFD4E81E2ABE72009A29CE /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		633755C11DF34A4E00865C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633755CD1DF34B5F00865C91 /* vc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
 		633755CF1DF3510600865C91 /* cell_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_TableViewCell.swift; path = ../cell_TableViewCell.swift; sourceTree = "<group>"; };
+		6EEFD4E81E2ABE72009A29CE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				6337559F1DF34A4E00865C91 /* AppDelegate.swift */,
 				633755A11DF34A4E00865C91 /* ViewController.swift */,
+				6EEFD4E81E2ABE72009A29CE /* ViewController2.swift */,
 				633755CD1DF34B5F00865C91 /* vc2.swift */,
 				633755CF1DF3510600865C91 /* cell_TableViewCell.swift */,
 				633755A31DF34A4E00865C91 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEFD4E91E2ABE72009A29CE /* ViewController2.swift in Sources */,
 				633755A21DF34A4E00865C91 /* ViewController.swift in Sources */,
 				633755D01DF3510600865C91 /* cell_TableViewCell.swift in Sources */,
 				633755CE1DF34B5F00865C91 /* vc2.swift in Sources */,
@@ -513,6 +517,7 @@
 				633755C61DF34A4E00865C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		633755C71DF34A4E00865C91 /* Build configuration list for PBXNativeTarget "todolistTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				633755C91DF34A4E00865C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		633755CA1DF34A4E00865C91 /* Build configuration list for PBXNativeTarget "todolistUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				633755CC1DF34A4E00865C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
