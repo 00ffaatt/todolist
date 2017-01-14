@@ -14,6 +14,8 @@
 		633755AA1DF34A4E00865C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633755A81DF34A4E00865C91 /* LaunchScreen.storyboard */; };
 		633755B51DF34A4E00865C91 /* todolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755B41DF34A4E00865C91 /* todolistTests.swift */; };
 		633755C01DF34A4E00865C91 /* todolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755BF1DF34A4E00865C91 /* todolistUITests.swift */; };
+		633755CE1DF34B5F00865C91 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755CD1DF34B5F00865C91 /* vc2.swift */; };
+		633755D01DF3510600865C91 /* cell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633755CF1DF3510600865C91 /* cell_TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		633755BB1DF34A4E00865C91 /* todolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633755BF1DF34A4E00865C91 /* todolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITests.swift; sourceTree = "<group>"; };
 		633755C11DF34A4E00865C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633755CD1DF34B5F00865C91 /* vc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
+		633755CF1DF3510600865C91 /* cell_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_TableViewCell.swift; path = ../cell_TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				6337559F1DF34A4E00865C91 /* AppDelegate.swift */,
 				633755A11DF34A4E00865C91 /* ViewController.swift */,
+				633755CD1DF34B5F00865C91 /* vc2.swift */,
+				633755CF1DF3510600865C91 /* cell_TableViewCell.swift */,
 				633755A31DF34A4E00865C91 /* Main.storyboard */,
 				633755A61DF34A4E00865C91 /* Assets.xcassets */,
 				633755A81DF34A4E00865C91 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				633755A21DF34A4E00865C91 /* ViewController.swift in Sources */,
+				633755D01DF3510600865C91 /* cell_TableViewCell.swift in Sources */,
+				633755CE1DF34B5F00865C91 /* vc2.swift in Sources */,
 				633755A01DF34A4E00865C91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
